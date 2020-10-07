@@ -1,0 +1,8 @@
+Library/
+Temp/
+obj/
+Logs/
+Recordings/
+.vs/
+*.apk
+*.csproj
