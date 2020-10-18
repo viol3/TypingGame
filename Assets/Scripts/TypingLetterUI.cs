@@ -14,7 +14,7 @@ public class TypingLetterUI : MonoBehaviour
     private Color _firstColor;
     private bool _completed = false;
 
-    private void Awake()
+    public void Init()
     {
         _letterText = GetComponent<Text>();
         _firstColor = _letterText.color;

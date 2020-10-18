@@ -60,6 +60,7 @@ public class TypingPanelUI : MonoBehaviour
                 continue;
             }
             TypingLetterUI letterUI = Instantiate(_letterPrefab, _letterUIParent).GetComponent<TypingLetterUI>();
+            letterUI.Init();
             letterUI.SetLetter(_targetWord[i].ToString());
             _currentTypingLetterUIs.Add(letterUI);
         }
