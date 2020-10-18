@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class SimpleTypingGameManager : MonoBehaviour
 {
     [SerializeField] private TouchScreenKeyboardCharacterInput _touchScreenKeyboardCharacterInput;
     [SerializeField] private TextAsset _wordListFile;
