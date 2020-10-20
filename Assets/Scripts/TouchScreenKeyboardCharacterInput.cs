@@ -35,4 +35,9 @@ public class TouchScreenKeyboardCharacterInput : MonoBehaviour
     {
         _keyboard.text = "";
     }
+
+    public void OpenNewKeyboard()
+    {
+        _keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, false, false);
+    }
 }
