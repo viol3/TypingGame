@@ -40,4 +40,12 @@ public class TouchScreenKeyboardCharacterInput : MonoBehaviour
     {
         _keyboard = TouchScreenKeyboard.Open("", TouchScreenKeyboardType.Default, false, false, false, false);
     }
+
+    public void CloseKeyboard()
+    {
+        if(_keyboard != null)
+        {
+            _keyboard.active = false;
+        }
+    }
 }
